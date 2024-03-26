@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
+import banner from "../assets/banner.png";
 
 export default function Home() {
     return (
@@ -7,6 +9,7 @@ export default function Home() {
       <div className="hero py-32 bg-gray-700">
           <div className="hero-content grid md:grid-cols-2 gap-8">
             <div className="order-2">
+                <img src={banner} className="" alt="banner" />
             </div>
             <div>
               <h1 className="text-5xl font-bold leading-normal text-white">
@@ -16,22 +19,11 @@ export default function Home() {
                 Your go to place for tackling the growing virtual world.
                  Expand you knowledge in literacy, safety, privacy and more. All through our intuitive and easy to follow modules  
               </p>
-              <button className="btn btn-primary mt-4">Explore Modules</button>
+              <Link to="/modules-page">
+                  <button className="btn btn-primary mt-4">Explore Modules</button>
+              </Link>
             </div>
           </div>
-      </div>
-      <div className="py-20 max-w-7xl mx-auto">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {MODULES.map((modules) => (
-          <Modules
-            key={modules.id}
-            image={modules.image}
-            title={modules.title}
-            category={modules.category}
-            description={modules.description}
-          />
-        ))}
-      </div>
       </div>
       </Layout>
     )

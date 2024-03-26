@@ -31,7 +31,7 @@ const Navbar = () => {
                 </li>
                 <li tabIndex="0">
                   <span className= "justify-between cursor-pointer">
-                    Books
+                    Modules
                     <svg
                       className="fill-current"
                       xmlns="http://www.w3.org/2000/svg"
@@ -42,20 +42,12 @@ const Navbar = () => {
                       <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                     </svg>
                   </span>
-                  <ul className="p-2 bg-gray-100">
-                    <li>
-                      <Link to="/">Submenu 1</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Submenu 2</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <div className="form-control mt-3">
                     <input
                       type= "text"
-                      placeholder= "Search books..."
+                      placeholder= "Search modules..."
                       className= "input input-bordered input-primary w-full"
                     />
                   </div>
@@ -73,7 +65,7 @@ const Navbar = () => {
               </li>
               <li tabIndex="0">
                 <span>
-                  Books
+                  Modules
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,14 +76,6 @@ const Navbar = () => {
                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                   </svg>
                 </span>
-                <ul className="p-2 bg-gray-100">
-                  <li>
-                    <Link to="/">Submenu 1</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Submenu 2</Link>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>
@@ -99,7 +83,7 @@ const Navbar = () => {
             <div className="form-control">
               <input
                 type= "text"
-                placeholder= "Search books..."
+                placeholder= "Search modules..."
                 className= "input input-bordered input-primary w-full"
               />
             </div>
