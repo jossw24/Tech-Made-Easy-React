@@ -17,13 +17,13 @@ const Modules = ({ id, image, title, category, description }) => {
   };
 
   return (
-    <div className="card bg-base-100 shadow-xl">
-      <figure className="px-10 pt-10">
+    <div className="card bg-gray-700 shadow-xl">
+      <figure className="px-10 pt-10 bg-gray-700">
         <div className="rounded-xl bg-gray-300 p-2">
           <img src={image} alt={title} className="rounded-xl max-h-40" style={{ objectFit: 'cover' }} />
         </div>
       </figure>
-      <div className="card-body items-center text-center">
+      <div className="card-body items-center text-center ">
         <h2 className="card-title text-white">
           {title}
           <div className="badge badge-secondary text-xs">{category}</div>
