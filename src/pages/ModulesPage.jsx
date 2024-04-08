@@ -11,6 +11,7 @@ const ModulesPage = () => {
           {MODULES.map((module) => (
             <Modules
               key={module.id}
+              id={module.id}
               image={module.image}
               title={module.title}
               category={module.category}
