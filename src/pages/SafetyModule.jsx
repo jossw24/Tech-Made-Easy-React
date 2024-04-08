@@ -47,7 +47,7 @@ const SafetyModule = () => {
 
         <h3 className="text-lg font-semibold text-white mt-4 mb-2">Test your skills! Click below to practice your phishing email skills in a safe environment</h3>
 
-        <a href="https://phishingquiz.withgoogle.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Phishing Quiz</a>
+        <a href="https://www.opendns.com/phishing-quiz/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Phishing Quiz</a>
 
 
       </div>
