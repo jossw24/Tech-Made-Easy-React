@@ -49,17 +49,7 @@ const HealthModule = () => {
         <p>Avoid maximum brightness to avoid headaches and further eye strain</p>
         
         <h3 className="text-lg font-semibold text-white mt-4 mb-2">Watch this great video on how to setup your work and computer area</h3>
-        <div>
-         <iframe
-            width="560"
-            height="315"
-            src="https://youtu.be/riD8Xt8r1MQ?si=LxA9PitNgWi26K-R"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <a href="https://youtu.be/riD8Xt8r1MQ?si=LxA9PitNgWi26K-R" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Click here for ergonomics video!</a>
 
        
         {/* 
