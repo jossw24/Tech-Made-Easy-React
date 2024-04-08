@@ -11,19 +11,19 @@ const SafetyModule = () => {
           <div className=" text-sm breadcrumbs ">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link className = "text-white" to="/">Home</Link>
               </li>
               <li>
-                <Link to="/modules-page">Modules</Link>
+                <Link className = "text-white" to="/modules-page">Modules</Link>
               </li>
-              <li>Safety</li>
+              <li className = "text-white" >Safety</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 py-6 bg-gray-700">
         <h2 className="text-lg font-semibold text-white mb-4">Internet Safety Tips:</h2>
-        <p className="text-white">Rule number one: If you're not sure if something is safe, don't click or give personal information!</p>
+        <p className="text-white">Rule number one:If you're not sure if something is safe, don't click or give personal information!</p>
         
         <h3 className="text-lg font-semibold text-white mt-4 mb-2">Being aware of scams:</h3>
         <p className="text-white">What is spam?</p>
